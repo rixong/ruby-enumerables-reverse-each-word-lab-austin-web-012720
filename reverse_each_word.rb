@@ -1,6 +1,6 @@
 def reverse_each_word(str)
   new = []
-  str.split(' ').each { |word| new.
+  str.split(' ').each { |word| new.unshift(word)
     
   }
 end
